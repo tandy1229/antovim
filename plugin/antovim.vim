@@ -79,6 +79,10 @@ let g:antovim_definitions = [
   \   ['upper', 'lower'],
   \   ['0', '1'],
   \   ['1', '0'],
+  \   ['-', '+'],
+  \   ['+', '-'],
+  \   ['<', '>'],
+  \   ['>', '<'],
   \ ]
 
 autocmd FileType css,less let b:antovim_definitions = [
